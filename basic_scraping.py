@@ -16,7 +16,6 @@ for page in range(1, 51):
 
         article = soup.find_all('article', class_='product_pod')
 
-
         for book in article:
             title = book.find_all('a')[1]['title']
             price = book.find('p', class_='price_color').text[2:]
