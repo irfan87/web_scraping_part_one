@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 # pagination hard-coded
 for page in range(1, 51):
-    print(page)
     # setup url
     url = f'http://books.toscrape.com/catalogue/page-{page}.html'
 
